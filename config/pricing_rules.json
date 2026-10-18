@@ -1,0 +1,51 @@
+{
+  "_说明": "四级价格规则表。所有数字都请按渠道【最新政策】核对后替换；改这里不用改代码。",
+  "_叠加规则说明": "can_stack_with_national = 该项优惠能否与'国补'同时享受。不能叠加时，程序会自动把该组合排除，并给出原因。",
+  "_最优解逻辑": "程序会枚举所有合法的优惠组合，取'到手价最低'的那一组，并输出每一项省了多少钱、哪些被排除、为什么。",
+
+  "national_subsidy": {
+    "name": "国补（国家补贴）",
+    "enabled": true,
+    "type": "percent",
+    "rate": 0.20,
+    "cap": 2000,
+    "note": "按指导价比例计算，封顶 2000 元。请按最新国补政策核对 rate 与 cap。"
+  },
+
+  "channels": {
+    "offline_store": {
+      "name": "线下门店",
+      "store_subsidy": { "type": "fixed", "amount": 200 },
+      "can_stack_with_national": true
+    },
+    "online_official": {
+      "name": "线上官方商城",
+      "store_subsidy": { "type": "fixed", "amount": 100 },
+      "can_stack_with_national": true
+    },
+    "ecommerce_platform": {
+      "name": "电商平台",
+      "store_subsidy": { "type": "percent", "rate": 0.03 },
+      "can_stack_with_national": false,
+      "note": "演示设定：平台券与国补互斥，程序会自动排除叠加组合。"
+    }
+  },
+
+  "education_discount": {
+    "name": "教育优惠",
+    "type": "fixed",
+    "amount": 300,
+    "requires_edu_verification": true,
+    "can_stack_with_national": true,
+    "note": "需学生/教师身份验证；不满足身份条件时程序不会计入。"
+  },
+
+  "trade_in": {
+    "name": "以旧换新",
+    "type": "fixed",
+    "amount": 200,
+    "extra": "另加旧机实际估值",
+    "can_stack_with_national": true,
+    "note": "需有旧机；补贴 200 元 + 旧机估值，两者都计入省下的钱。"
+  }
+}

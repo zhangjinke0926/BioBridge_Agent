@@ -1,0 +1,5 @@
+# 依赖很少，就是为了"装得上、跑得动"
+streamlit>=1.32
+openai>=1.30
+python-dotenv>=1.0
+pytest>=8.0

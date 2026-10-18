@@ -1,0 +1,262 @@
+{
+  "_说明": "机型数据来源：主办方官方知识库 P1-产品参数库（2026-10-17 基准）。kb_path 指向该型号在官方知识库中的唯一目录，用于事实核验与图片引用，避免相近型号混淆。list_price 取自官方公开价格快照；标注 price_note 的为参考价/占位，非当前成交价。软文正文不引用价格。",
+  "_竞品价对照": "competitor_name 来自官方知识库 P3-竞品资料库；competitor_price 为【演示占位值，官方库未提供竞品金额依据】，请按门店实际竞品价替换。留空(null)则不展示价差。",
+  "products": [
+    {
+      "id": "matebook_14_ultra",
+      "name": "华为 MateBook 14 酷睿 Ultra",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook 14 酷睿 Ultra",
+      "series": "MateBook 系列",
+      "positioning": "适合重视 OLED 3:2 触控、Windows 通用软件和丰富常用接口的 14 英寸用户；Linux 版可选但需单独看功能差异。",
+      "target_users": ["学生", "职场新人", "办公", "创作者"],
+      "competitor_name": "联想 ThinkBook 14+ 2026 酷睿 Ultra 5 AI 全能本",
+      "competitor_price": 7299,
+      "skus": [
+        {
+          "sku": "MB14U-U5-16G-1T",
+          "spec": "酷睿 Ultra 5 125H / 16GB / 1TB NVMe SSD / 14.2 英寸 OLED 2880×1920 3:2 91%屏占比 450尼特 / Windows 版支持十点触控 / 约1.31kg / 70Wh / Windows 11 家庭版",
+          "list_price": 6799,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "14.2 英寸 OLED 2880×1920、3:2 生产力屏，写论文、看长文档一屏多出几行",
+            "Windows 版支持十点触控，方案批注、PDF 标注直接上手点",
+            "约1.31kg 机身，背上通勤、图书馆来回不压肩",
+            "70Wh 额定电池，一天课、一天会议少找插座",
+            "一个全功能 USB-C + 两个 USB-A + HDMI，投影、U 盘、鼠标不用带转接线",
+            "Windows 版超级终端、AI 概要、AI 空间，手机文件拖进来就用"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_d14_2024",
+      "name": "华为 MateBook D 14 2024",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook D 14",
+      "series": "D 系列",
+      "positioning": "适合预算和接口实用性优先的 14 英寸办公用户；若重视色彩，应选清楚标准版与 SE 版。",
+      "target_users": ["学生", "职场新人", "办公"],
+      "competitor_name": "REDMI Book 14 2026",
+      "competitor_price": 5499,
+      "skus": [
+        {
+          "sku": "D14-2024-i5-16G-512G",
+          "spec": "i5-13420H / 16GB / 512GB NVMe SSD / 14 英寸 IPS 1920×1200 16:10 100%sRGB 300尼特 / 全尺寸背光键盘 / 约1.39kg / 56Wh / Windows 11 家庭版",
+          "list_price": 5799,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "14 英寸 16:10 100%sRGB 护眼屏，看表格、写文档更通透",
+            "约1.39kg 轻薄机身，背着上课、跑客户不累",
+            "56Wh 额定电池，一天课或一天办公少充电",
+            "HDMI + 两个 USB-A + 一个 USB-C，投影和外设基本免转接",
+            "Windows 版华为分享、超级终端，手机文件一拖即传",
+            "指纹电源键一键开机登录，免除输密码"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_d16_2024",
+      "name": "华为 MateBook D 16 2024",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook D 16",
+      "series": "D 系列",
+      "positioning": "比 SE 版提供更高的处理器与电池/色域选择空间，适合大屏与数字键盘办公；16GB 内存、集成显卡与约1.7kg 界定了任务与便携边界。",
+      "target_users": ["学生", "办公", "财务", "多任务办公"],
+      "competitor_name": "Dell Pro 16 笔记本（PC16250）",
+      "competitor_price": 6499,
+      "skus": [
+        {
+          "sku": "D16-2024-i5-16G-1T",
+          "spec": "i5-13420H 标压处理器（Windows 版另有 i9-13900H 可选）/ 16GB / 1TB NVMe SSD / 16 英寸 IPS 1920×1200 16:10 300尼特（色域视配置为 100%sRGB 或 45%NTSC）/ 独立数字小键盘 / 约1.68kg（56Wh 版）/ Windows 11 家庭版",
+          "list_price": 5999,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "16 英寸大屏 + 独立数字小键盘，财报、数据录入效率高",
+            "Windows 版可选 i9-13900H 标压处理器，塞进更重的表格与多任务",
+            "16:10 大屏看并排文档、网页，视野比 14 英寸更宽",
+            "约1.68kg 起，比台式机省地儿，还能随手装包带走",
+            "USB-C 支持 DP 1.2，外接显示器直接出画面",
+            "HDMI + 两个 USB-A + USB-C，会议室老投影也能用"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_d16_se_2024",
+      "name": "华为 MateBook D 16 SE 版 2024",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook D 16 SE 版",
+      "series": "D 系列",
+      "positioning": "适合大屏表格、数字输入和传统接口优先的基础办公；45%NTSC 屏、16GB 内存、UHD 集显和 56Wh 电池构成清晰边界。",
+      "target_users": ["学生", "办公", "财务", "基础办公"],
+      "competitor_name": "联想小新 Pro16 酷睿（小新 Pro 16 IPH11）",
+      "competitor_price": 5299,
+      "skus": [
+        {
+          "sku": "D16SE-2024-i5-16G-512G",
+          "spec": "i5-13420H 标压处理器（另有 i5-12450H 版本）/ 16GB / 512GB NVMe SSD / 16 英寸 IPS 1920×1200 16:10 45%NTSC 300尼特 / 独立数字小键盘 / 约1.70kg / 56Wh / Windows 11 家庭版",
+          "list_price": 4099,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "16 英寸大屏 + 数字小键盘，做表、填数据又快又清楚",
+            "Windows 版 NFC + 超级终端，手机碰一碰就能传文件",
+            "HDMI + 两个 USB-A + USB-C，投影、U 盘、鼠标免转接",
+            "约1.70kg，固定工位和会议室之间拿着走不费劲",
+            "512GB 起步、可选 1TB，资料多也放得下",
+            "指纹电源键 + 全尺寸键盘，商务办公上手即习惯"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_gt_14",
+      "name": "华为 MateBook GT 14",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook GT 系列",
+      "series": "GT 系列",
+      "positioning": "适合需要高刷新 OLED、32GB 内存、最高 2TB、SD 卡和丰富接口的创作/高负载办公用户；约1.49kg、集成显卡与系统差异是边界。",
+      "target_users": ["创作者", "设计师", "办公", "内容制作"],
+      "competitor_name": "华硕 ProArt 创14（H7407，RTX Spark）",
+      "competitor_price": 8999,
+      "skus": [
+        {
+          "sku": "GT14-U5-32G-1T",
+          "spec": "酷睿 Ultra 5 125H（Windows 版另有 Ultra 9 185H 可选）/ 32GB / 1TB NVMe SSD（另有 2TB）/ 14.2 英寸 OLED 2880×1920 3:2 最高144Hz 支持十点触控 / 约1.49kg / 70Wh / Windows 11 家庭版",
+          "list_price": 7999,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "14.2 英寸 OLED 可切至最高 144Hz，剪素材、滚时间线更跟手",
+            "32GB 大内存 + 最高 2TB SSD，几十 GB 素材工程也放得下",
+            "右侧 SD 卡槽 + 后置 USB-A/HDMI，相机卡插上就导素材",
+            "Windows 版雷电 4，接扩展坞、高速硬盘一步到位",
+            "随包装 140W 超级快充适配器，回血快",
+            "Windows 版 AI 空间、AI 概要，整理资料、写摘要更省事"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_xpro_ultra_weirong",
+      "name": "华为 MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "kb_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列",
+      "series": "X 系列",
+      "positioning": "适合把约980g便携、3.1K级 OLED 触控屏、32GB/2TB 上限和 Windows 雷电扩展放在首位的人；原生传统接口与系统功能差异是关键限制。",
+      "target_users": ["商务人士", "高端用户", "差旅用户"],
+      "competitor_name": "联想 YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "competitor_price": 10999,
+      "skus": [
+        {
+          "sku": "XPRO-U7-16G-1T",
+          "spec": "酷睿 Ultra 7 155H（Windows 版另有 Ultra 9 185H）/ 16GB / 1TB NVMe SSD（另有 32GB + 2TB）/ 14.2 英寸 OLED 3120×2080 3:2 最高120Hz 支持十点触控 / 约980g / 70Wh / Windows 11 家庭版",
+          "list_price": 10399,
+          "price_note": "官方参考价，非当前商城价，请以门店当日政策为准",
+          "selling_points": [
+            "约980g、13.5mm，出差背包几乎感觉不到重量",
+            "14.2 英寸 3120×2080 OLED 3:2 屏，修图看色、看长文档都舒服",
+            "Windows 版两个雷电 4 + 一个 USB-C，高带宽扩展一步到位",
+            "70Wh 电池塞进约1kg 机身，会议一整天更从容",
+            "Windows 版超级终端、AI 概要，客户演示、跨设备演示无缝切",
+            "随包装 140W 超级快充适配器 + OTG 转接线，开箱即用"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_14_harmony",
+      "name": "华为 MateBook 14 鸿蒙版",
+      "kb_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook 14",
+      "series": "鸿蒙电脑",
+      "positioning": "更适合已确认鸿蒙软件与设备生态、重视 3:2 OLED 触控屏和较丰富传统接口的移动办公者；系统兼容是选型前置条件。",
+      "target_users": ["学生", "办公", "鸿蒙生态用户"],
+      "competitor_name": "苹果 MacBook Air 15 英寸（M5）",
+      "competitor_price": 10499,
+      "skus": [
+        {
+          "sku": "MB14-HM-16G-512G",
+          "spec": "HarmonyOS 6 / 麒麟 X90 / 16GB / 512GB（官方商城另有 24GB/32GB 内存与 1TB 存储档）/ 14.2 英寸 OLED 抗反射屏 2880×1920 3:2 91%屏占比 支持 10 点触控 / 约1.32–1.33kg / 70Wh",
+          "list_price": 5899,
+          "selling_points": [
+            "HarmonyOS 6 + 麒麟 X90 鸿蒙电脑，系统与华为设备天然一体",
+            "14.2 英寸 OLED 抗反射屏、2880×1920 3:2，阳光下看文档也清楚",
+            "支持 10 点触控，长文档、批注、手写交互直接上手",
+            "Wi-Fi 7 + 蓝牙 6.0 + 星闪 E1.0，连接新设备更快更稳",
+            "HDMI + 两个 USB-A + USB-C，投影和外设基本不用转接",
+            "约1.32kg + 70Wh 电池，通勤办公一整天更省心"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_fold_ultimate",
+      "name": "华为 MateBook Fold 非凡大师",
+      "kb_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Fold 非凡大师",
+      "series": "鸿蒙电脑",
+      "positioning": "主要面向愿意采用鸿蒙与折叠交互、需要大画布和手写输入的移动用户；端口、软件与屏幕保养是购买前必须确认的三类限制。",
+      "target_users": ["商务人士", "创作者", "高端用户"],
+      "competitor_name": "华硕灵耀14 双屏 2026（UX8407）",
+      "competitor_price": 19999,
+      "skus": [
+        {
+          "sku": "FOLD-HM-24G-512G",
+          "spec": "HarmonyOS 6.1 / 麒麟 X90 Plus / 24GB / 512GB SSD（另有 1TB/2TB、32GB）/ 展开 18 英寸 3296×2472 4:3，折叠 13 英寸 2472×1648 双层柔性 OLED + UTG 超薄玻璃 / 约1.16kg（含电池不含键盘）/ 74.69Wh",
+          "list_price": 24999,
+          "selling_points": [
+            "一台机 18 英寸展开、13 英寸折叠，大画布办公后能折起来带走",
+            "双层柔性 OLED + UTG 超薄玻璃，HDR 内容下局部峰值可达 1600 尼特",
+            "随机星跃随行键盘，星闪无线连接，并带压力触控板",
+            "随包装 HUAWEI M-Pen 3，笔记、批注、绘画直接落笔",
+            "HarmonyOS 6.1 华为笔记、天生会画、小艺能力，创作记录一站搞定",
+            "74.69Wh 电池 + 140W 适配器，移动创作续航有底气"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_pro_harmony",
+      "name": "华为 MateBook Pro 鸿蒙版",
+      "kb_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro",
+      "series": "鸿蒙电脑",
+      "positioning": "适合将轻量化、3:2 高分辨率 OLED 触控屏和鸿蒙协同放在首位的人；原生接口较少与软件兼容验证是主要取舍。",
+      "target_users": ["商务人士", "办公", "差旅用户"],
+      "competitor_name": "HP EliteBook X G2i 14 英寸新一代 AI PC",
+      "competitor_price": 12999,
+      "skus": [
+        {
+          "sku": "MBPRO-HM-24G-512G",
+          "spec": "HarmonyOS 6.1 / 麒麟 X90 Plus / 24GB / 512GB NVMe SSD（另有 32GB/1TB 与柔光版）/ 14.2 英寸 OLED 3120×2080 3:2 93%屏占比 支持最多 10 点触控 / 970g / 13.5mm / 70Wh",
+          "list_price": 9999,
+          "selling_points": [
+            "970g + 13.5mm 超轻机身，通勤差旅背起来几乎无负担",
+            "14.2 英寸 3120×2080 OLED 触控屏，长文档、触控批注都顺手",
+            "HarmonyOS 6.1 小艺慧记、小艺深度研究，鸿蒙 AI 辅助办公",
+            "超级终端 + 跨设备剪贴板，手机、平板与电脑无缝流转",
+            "机身右侧超级隐私开关，一键管控隐私入口",
+            "随包装 140W 超级快充适配器 + OTG 转接线，轻薄不减接口体验"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matebook_pro_s",
+      "name": "华为 MateBook Pro S",
+      "kb_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro S",
+      "series": "鸿蒙电脑",
+      "positioning": "适合优先考虑极轻机身、3.1K级 OLED 触控与鸿蒙办公的人，也可按防窥、柔光或典藏配件做细分；两口 USB-C 与软件生态是明确取舍。",
+      "target_users": ["商务人士", "差旅用户", "办公"],
+      "competitor_name": "苹果 MacBook Air 13 英寸（M5）",
+      "competitor_price": 8999,
+      "skus": [
+        {
+          "sku": "MBPROS-HM-16G-512G",
+          "spec": "HarmonyOS 6.1 / 麒麟 XE90 / 16GB（另有 24GB/32GB）/ 512GB（另有 1TB）/ 14.2 英寸柔性 OLED 3120×2080 3:2 120Hz 支持十点触控 / 标准屏版约798g、11.9mm / 54Wh",
+          "list_price": 7999,
+          "selling_points": [
+            "标准屏版约798g、厚 11.9mm，是极轻的鸿蒙轻薄本",
+            "14.2 英寸柔性 OLED 3120×2080、120Hz + 十点触控，画面流畅",
+            "HarmonyOS 6.1 小艺智慧搜索、小艺深度研究，鸿蒙 AI 助手上手可用",
+            "超级终端、碰一碰、跨设备剪贴板，鸿蒙设备协同一碰即连",
+            "提供标准屏 / 防窥屏 / 柔光屏 / 典藏版多版本，可按需求细分选",
+            "前置 + 后置各 1080P 摄像头，视频会议与桌面内容采集都覆盖"
+          ]
+        }
+      ]
+    }
+  ]
+}
